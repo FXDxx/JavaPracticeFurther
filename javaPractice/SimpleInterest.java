@@ -22,5 +22,6 @@ public class SimpleInterest {
 
         double interest = (principle*rate*time);
         System.out.println(interest);
+        sc.close();
     }
 }

@@ -14,6 +14,7 @@ public class SalaryCalculate {
         bonus = sc.nextDouble();
         grossSalary = basicSalary+bonus;
         System.out.println(grossSalary);
+        sc.close();
     }
 
     public void calculateNetSalary(){
