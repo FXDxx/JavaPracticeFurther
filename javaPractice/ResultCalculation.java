@@ -1,7 +1,7 @@
 package javaPractice;
 
 import java.util.Scanner;
-
+// Program to calculate marks percentage and show if student passed or failed..
 public class ResultCalculation {
     static class Result{
     static double obtained, total;
