@@ -9,9 +9,12 @@ public class FactorialUsingForLoop {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number to find factorial: ");
         num = sc.nextInt();
+
         for(int i = 1;i<=num;i++){
             fact*=i;
         }
         System.out.println("Factorial of number: "+fact);
+        sc.close();
     }
+    
 }
